@@ -5,10 +5,8 @@ import { CreateInvoice } from '@/app/ui/invoices/buttons';
 import { lusitana } from '@/app/ui/fonts';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { fetchInvoicesPages } from '@/app/lib/data'; 
 
-const searchParams = useSearchParams();
 
 
 export default async function Page(props: {
